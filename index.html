@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>Precise Ruler</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="status" class="status"></div>
+
+<button id="openPanel" class="fab" aria-label="Settings">⚙</button>
+
+<section id="panel" class="panel" hidden>
+  <div class="panel-head">
+    <div class="tabs" role="tablist">
+      <button data-mode="ruler">Ruler</button>
+      <button data-mode="grid">Grid</button>
+      <button data-mode="angles">Angles</button>
+    </div>
+    <button id="closePanel" class="close" aria-label="Close">✕</button>
+  </div>
+
+  <div class="panel-body">
+    <fieldset data-for="ruler">
+      <legend>Ruler</legend>
+      <label>First edge <select data-k="ruler.a"><option value="in">inches</option><option value="cm">cm / mm</option><option value="none">none</option></select></label>
+      <label>Second edge <select data-k="ruler.b"><option value="in">inches</option><option value="cm">cm / mm</option><option value="none">none</option></select></label>
+      <label>Inch divisions <select data-k="ruler.inDiv" data-num>
+        <option value="8">1/8 in</option><option value="16">1/16 in</option><option value="32">1/32 in</option><option value="10">1/10 in (decimal)</option></select></label>
+      <label>Direction <select data-k="ruler.flip" data-bool><option value="false">0 at top / left</option><option value="true">0 at bottom / right</option></select></label>
+      <label><input type="checkbox" data-k="ruler.cross"> Lines across the screen at every major mark</label>
+    </fieldset>
+
+    <fieldset data-for="grid">
+      <legend>Grid</legend>
+      <label>Spacing
+        <span class="row"><input type="number" step="any" min="0.1" data-k="grid.spacing" data-num>
+        <select data-k="grid.unit"><option value="in">in</option><option value="mm">mm</option><option value="cm">cm</option></select></span>
+      </label>
+      <div class="presets" id="gridPresets"></div>
+      <label>Heavy line every <input type="number" min="0" step="1" data-k="grid.major" data-num> lines (0 = none)</label>
+      <label>Medium line every <input type="number" min="0" step="1" data-k="grid.mid" data-num> lines (0 = none)</label>
+      <label>Origin <select data-k="grid.origin"><option value="corner">top-left corner</option><option value="center">screen center</option></select></label>
+      <label><input type="checkbox" data-k="grid.labels"> Number the heavy lines</label>
+    </fieldset>
+
+    <fieldset data-for="angles">
+      <legend>Angles</legend>
+      <label>Vertex <select data-k="angles.origin">
+        <option value="bl">bottom-left</option><option value="bc">bottom-center</option><option value="c">center</option><option value="tl">top-left</option></select></label>
+      <label>Ray every <select data-k="angles.step" data-num>
+        <option>1</option><option>2</option><option>5</option><option>10</option><option>15</option><option>22.5</option><option>30</option><option>45</option><option>90</option></select> °</label>
+      <label>Heavy ray every <select data-k="angles.major" data-num>
+        <option>5</option><option>10</option><option>15</option><option>30</option><option>45</option><option>90</option></select> °</label>
+      <label><input type="checkbox" data-k="angles.ring"> Protractor ring (1° ticks)</label>
+      <label><input type="checkbox" data-k="angles.labels"> Label heavy rays</label>
+      <label>Distance rings <select data-k="angles.arcs"><option value="none">none</option><option value="in">every inch</option><option value="cm">every cm</option></select></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Lines (in device pixels)</legend>
+      <div class="weights">
+        <label>Light <input type="number" min="1" max="40" step="1" data-k="w.l" data-num></label>
+        <label>Medium <input type="number" min="1" max="40" step="1" data-k="w.m" data-num></label>
+        <label>Heavy <input type="number" min="1" max="40" step="1" data-k="w.h" data-num></label>
+      </div>
+      <p class="hint" id="weightHint"></p>
+      <label>Colours <select data-k="theme">
+        <option value="light">black on white</option><option value="dark">white on black</option>
+        <option value="blue">blue on white</option><option value="red">red on black (night)</option></select></label>
+      <label>Inset from screen edge <span class="row"><input type="number" min="0" step="0.5" data-k="margin" data-num> mm</span></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Accuracy</legend>
+      <p id="calInfo" class="hint"></p>
+      <div class="buttons">
+        <button id="calibrate" class="primary">Calibrate screen</button>
+        <button id="fullscreen">Full screen</button>
+        <button id="print">Print / SVG at true size</button>
+      </div>
+    </fieldset>
+  </div>
+</section>
+
+<section id="cal" class="cal" hidden>
+  <canvas id="calCanvas"></canvas>
+  <div class="cal-ui">
+    <details id="calDetails" open>
+    <summary class="cal-title">Calibrate</summary>
+    <label>Reference <select id="calRef">
+      <option value="85.60">Bank card, long side (85.60 mm)</option>
+      <option value="53.98">Bank card, short side (53.98 mm)</option>
+      <option value="155.956">US banknote, long side (6.14 in)</option>
+      <option value="66.294">US banknote, short side (2.61 in)</option>
+      <option value="ruler">A ruler: enter a length</option>
+      <option value="ppi">I know the screen's pixels per inch</option>
+    </select></label>
+    <label id="rulerLenRow" hidden>Length <span class="row"><input id="rulerLen" type="number" step="any" min="0.1" value="3">
+      <select id="rulerUnit"><option value="in">in</option><option value="cm">cm</option><option value="mm">mm</option></select></span></label>
+    <label id="ppiRow" hidden>Pixels per inch <input id="ppiVal" type="number" step="any" min="50" max="2000"></label>
+    <p id="calHelp" class="hint"></p>
+    </details>
+    <div class="nudge" id="nudge">
+      <button data-d="-10">−10</button><button data-d="-1">−1</button>
+      <span id="calPx"></span>
+      <button data-d="1">+1</button><button data-d="10">+10</button>
+    </div>
+    <div class="buttons">
+      <button id="calSave" class="primary">Save</button>
+      <button id="calCancel">Cancel</button>
+    </div>
+  </div>
+</section>
+
+<section id="printDlg" class="cal" hidden>
+  <div class="cal-ui print-ui">
+    <p class="cal-title">Print at true size</p>
+    <p class="hint">Uses the current Ruler/Grid/Angles settings. In the print dialog choose <b>Actual size / 100%</b> scaling and margins <b>None</b>. A printer is usually accurate to well under 0.5%; measure the printed 100 mm check bar to confirm.</p>
+    <label>Paper <select id="paper">
+      <option value="letter">US Letter (8.5 × 11 in)</option><option value="a4">A4 (210 × 297 mm)</option>
+      <option value="legal">US Legal (8.5 × 14 in)</option><option value="tabloid">Tabloid (11 × 17 in)</option><option value="a3">A3 (297 × 420 mm)</option></select></label>
+    <label>Orientation <select id="orient"><option value="p">portrait</option><option value="l">landscape</option></select></label>
+    <label>Light / medium / heavy line width (mm)
+      <span class="row"><input id="pw_l" type="number" step="0.05" value="0.1"><input id="pw_m" type="number" step="0.05" value="0.2"><input id="pw_h" type="number" step="0.05" value="0.4"></span></label>
+    <div class="buttons">
+      <button id="doPrint" class="primary">Print</button>
+      <button id="doSvg">Download SVG</button>
+      <button id="printCancel">Close</button>
+    </div>
+  </div>
+</section>
+
+<div id="printArea"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
