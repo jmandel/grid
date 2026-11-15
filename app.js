@@ -411,9 +411,8 @@ function fmtPair(w, h) {
 function measureInfo() {
   const { a, b } = V.m;
   const dx = b.x - a.x, dy = b.y - a.y;
-  let deg = Math.atan2(-dy, dx) * 180 / Math.PI;
-  if (deg < 0) deg += 180;
-  if (deg >= 180) deg -= 180;
+  // angle to the horizontal, 0–90°, whichever way the line slopes
+  const deg = Math.atan2(Math.abs(dy), Math.abs(dx)) * 180 / Math.PI;
   return { dx, dy, len: Math.hypot(dx, dy), deg };
 }
 
@@ -436,7 +435,8 @@ function reading() {
       return { text: s, sub: `diagonal ${fmtLen(i.len)}`, copy };
     }
     const s = fmtLen(i.len);
-    return { text: s, sub: `at ${i.deg.toFixed(1)}° from level`, copy: `${copyLen(i.len)} at ${i.deg.toFixed(1)}°` };
+    const lvl = i.deg.toFixed(1), plumb = (90 - i.deg).toFixed(1);
+    return { text: s, sub: `${lvl}° from level · ${plumb}° from plumb`, copy: `${copyLen(i.len)}, ${lvl}° from level` };
   }
   if (S.mode === 'angles' && Math.abs(S.angles.rot) > 0.05) {
     const r = ((S.angles.rot % 360) + 540) % 360 - 180;
@@ -513,8 +513,13 @@ function drawOverlay(k, W, H, th) {
           snapLine(p.x - nx * 6, p.y - ny * 6, p.x + nx * 6, p.y + ny * 6, S.w.m);
           c.beginPath(); c.arc(p.x * k, p.y * k, 2.5 * k, 0, 7); c.lineWidth = S.w.l; c.stroke();
         }
-        const mx = (a.x + b.x) / 2 + nx * 6, my = (a.y + b.y) / 2 + ny * 6;
-        T(mx, my, reading().text.split(' · ')[0], 'center', 'middle', 3.2);
+        // push the label off the line far enough that its box clears it
+        const label = reading().text.split(' · ')[0], size = 3.2;
+        c.font = `600 ${size * k}px system-ui, sans-serif`;
+        const hw = c.measureText(label).width / k / 2 + size * 0.25, hh = size * 0.6;
+        const off = hw * Math.abs(nx) + hh * Math.abs(ny) + 2.5;
+        const side = (a.y + b.y) / 2 + ny * off > H - 30 ? -1 : 1; // keep it above the readout near the bottom
+        T((a.x + b.x) / 2 + nx * off * side, (a.y + b.y) / 2 + ny * off * side, label, 'center', 'middle', size);
       }
     }
   }
