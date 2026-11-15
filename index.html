@@ -4,29 +4,51 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
-<title>Precise Ruler</title>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>True-size ruler &amp; grid</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <canvas id="c"></canvas>
 
-<div id="status" class="status"></div>
-
-<button id="openPanel" class="fab" aria-label="Settings">⚙</button>
-
-<section id="panel" class="panel" hidden>
-  <div class="panel-head">
-    <div class="tabs" role="tablist">
-      <button data-mode="ruler">Ruler</button>
-      <button data-mode="grid">Grid</button>
-      <button data-mode="angles">Angles</button>
-    </div>
-    <button id="closePanel" class="close" aria-label="Close">✕</button>
+<!-- readout for the current measurement, with copy / share -->
+<div id="hud" class="hud" hidden>
+  <div id="hudText" class="hud-text"></div>
+  <div class="hud-buttons">
+    <button id="shapeBtn" hidden></button>
+    <button id="copyBtn">Copy</button>
+    <button id="shareBtn" hidden>Share</button>
+    <button id="clearBtn" aria-label="Clear">✕</button>
   </div>
+</div>
 
-  <div class="panel-body">
+<div id="toast" class="toast"></div>
+
+<nav id="bar" class="bar">
+  <button data-mode="ruler"><span class="ico">📏</span>Ruler</button>
+  <button data-mode="grid"><span class="ico">▦</span>Grid</button>
+  <button data-mode="angles"><span class="ico">∠</span>Angles</button>
+  <button data-mode="measure"><span class="ico">↔</span>Measure</button>
+  <button id="openPanel"><span class="ico">⚙</span>Settings</button>
+</nav>
+
+<section id="panel" class="sheet" hidden>
+  <div class="sheet-head"><b>Settings</b><button class="close" data-close="panel" aria-label="Close">✕</button></div>
+  <div class="sheet-body">
+    <fieldset>
+      <legend>Screen size</legend>
+      <p id="scaleInfo" class="hint"></p>
+      <div class="buttons">
+        <button id="pickDevice" class="primary">Choose phone</button>
+        <button id="calibrate">Check with a card or ruler</button>
+      </div>
+    </fieldset>
+
     <fieldset data-for="ruler">
       <legend>Ruler</legend>
       <label>First edge <select data-k="ruler.a"><option value="in">inches</option><option value="cm">cm / mm</option><option value="none">none</option></select></label>
@@ -39,21 +61,21 @@
 
     <fieldset data-for="grid">
       <legend>Grid</legend>
+      <div class="presets" id="gridPresets"></div>
       <label>Spacing
         <span class="row"><input type="number" step="any" min="0.1" data-k="grid.spacing" data-num>
         <select data-k="grid.unit"><option value="in">in</option><option value="mm">mm</option><option value="cm">cm</option></select></span>
       </label>
-      <div class="presets" id="gridPresets"></div>
-      <label>Heavy line every <input type="number" min="0" step="1" data-k="grid.major" data-num> lines (0 = none)</label>
-      <label>Medium line every <input type="number" min="0" step="1" data-k="grid.mid" data-num> lines (0 = none)</label>
-      <label>Origin <select data-k="grid.origin"><option value="corner">top-left corner</option><option value="center">screen center</option></select></label>
+      <label>Heavy line every <input type="number" min="0" step="1" data-k="grid.major" data-num> lines</label>
+      <label>Medium line every <input type="number" min="0" step="1" data-k="grid.mid" data-num> lines</label>
+      <label>Start from <select data-k="grid.origin"><option value="corner">top-left corner</option><option value="center">screen centre</option></select></label>
       <label><input type="checkbox" data-k="grid.labels"> Number the heavy lines</label>
     </fieldset>
 
     <fieldset data-for="angles">
       <legend>Angles</legend>
       <label>Vertex <select data-k="angles.origin">
-        <option value="bl">bottom-left</option><option value="bc">bottom-center</option><option value="c">center</option><option value="tl">top-left</option></select></label>
+        <option value="bl">bottom-left</option><option value="bc">bottom-centre</option><option value="c">centre</option><option value="tl">top-left</option></select></label>
       <label>Ray every <select data-k="angles.step" data-num>
         <option>1</option><option>2</option><option>5</option><option>10</option><option>15</option><option>22.5</option><option>30</option><option>45</option><option>90</option></select> °</label>
       <label>Heavy ray every <select data-k="angles.major" data-num>
@@ -63,8 +85,20 @@
       <label>Distance rings <select data-k="angles.arcs"><option value="none">none</option><option value="in">every inch</option><option value="cm">every cm</option></select></label>
     </fieldset>
 
+    <fieldset data-for="measure">
+      <legend>Measure</legend>
+      <label><input type="checkbox" data-k="measure.snap"> Snap to level, plumb and 45° when within 1.5°</label>
+      <label><input type="checkbox" data-k="measure.backdrop"> Faint 1 cm grid behind measurements</label>
+    </fieldset>
+
     <fieldset>
-      <legend>Lines (in device pixels)</legend>
+      <legend>Readings</legend>
+      <label>Show first <select data-k="units"><option value="in">inches</option><option value="mm">millimetres</option></select></label>
+      <label>Inch fractions to <select data-k="frac" data-num><option value="8">1/8</option><option value="16">1/16</option><option value="32">1/32</option><option value="0">decimals only</option></select></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Lines</legend>
       <div class="weights">
         <label>Light <input type="number" min="1" max="40" step="1" data-k="w.l" data-num></label>
         <label>Medium <input type="number" min="1" max="40" step="1" data-k="w.m" data-num></label>
@@ -74,18 +108,43 @@
       <label>Colours <select data-k="theme">
         <option value="light">black on white</option><option value="dark">white on black</option>
         <option value="blue">blue on white</option><option value="red">red on black (night)</option></select></label>
-      <label>Inset from screen edge <span class="row"><input type="number" min="0" step="0.5" data-k="margin" data-num> mm</span></label>
+      <label>Inset of the zero line from the screen edge <span class="row"><input type="number" min="0" step="0.5" data-k="margin" data-num> mm</span></label>
     </fieldset>
 
     <fieldset>
-      <legend>Accuracy</legend>
-      <p id="calInfo" class="hint"></p>
+      <legend>App</legend>
+      <label><input type="checkbox" data-k="autoFull"> Go full screen on first touch</label>
       <div class="buttons">
-        <button id="calibrate" class="primary">Calibrate screen</button>
-        <button id="fullscreen">Full screen</button>
-        <button id="print">Print / SVG at true size</button>
+        <button id="fullscreen">Full screen now</button>
+        <button id="install" hidden>Install app</button>
+        <button id="print">Print at true size</button>
       </div>
     </fieldset>
+
+    <fieldset>
+      <legend>Gestures</legend>
+      <ul class="hint gestures">
+        <li><b>Tap</b> shows or hides the buttons.</li>
+        <li><b>Ruler:</b> drag to slide a reading line, then Copy.</li>
+        <li><b>Grid:</b> drag to slide the grid onto an edge.</li>
+        <li><b>Angles:</b> drag to move the vertex; twist two fingers to rotate.</li>
+        <li><b>Measure:</b> drag across the object, then drag either end or the middle to fine-tune. Your finger can stay off to the side: the point moves with it.</li>
+        <li><b>Double-tap</b> resets the current view.</li>
+      </ul>
+    </fieldset>
+  </div>
+</section>
+
+<section id="devices" class="sheet tall" hidden>
+  <div class="sheet-head"><b>Which phone is this?</b><button class="close" data-close="devices" aria-label="Close">✕</button></div>
+  <div class="sheet-body">
+    <p class="hint">Sizes come from the maker's published screen specs, so no calibration is needed.</p>
+    <input id="devSearch" type="search" placeholder="Search, e.g. Pixel 9 or S24" autocomplete="off">
+    <div id="devMatches"></div>
+    <div id="devList" class="devlist"></div>
+    <div class="buttons">
+      <button id="devCal">Not listed: calibrate with a card</button>
+    </div>
   </div>
 </section>
 
@@ -119,10 +178,10 @@
   </div>
 </section>
 
-<section id="printDlg" class="cal" hidden>
-  <div class="cal-ui print-ui">
-    <p class="cal-title">Print at true size</p>
-    <p class="hint">Uses the current Ruler/Grid/Angles settings. In the print dialog choose <b>Actual size / 100%</b> scaling and margins <b>None</b>. A printer is usually accurate to well under 0.5%; measure the printed 100 mm check bar to confirm.</p>
+<section id="printDlg" class="sheet" hidden>
+  <div class="sheet-head"><b>Print at true size</b><button class="close" data-close="printDlg" aria-label="Close">✕</button></div>
+  <div class="sheet-body">
+    <p class="hint">Prints the current Ruler, Grid or Angles pattern. In the print dialog choose <b>Actual size / 100%</b> and margins <b>None</b>, then check the printed 100 mm bar with a ruler.</p>
     <label>Paper <select id="paper">
       <option value="letter">US Letter (8.5 × 11 in)</option><option value="a4">A4 (210 × 297 mm)</option>
       <option value="legal">US Legal (8.5 × 14 in)</option><option value="tabloid">Tabloid (11 × 17 in)</option><option value="a3">A3 (297 × 420 mm)</option></select></label>
@@ -132,13 +191,13 @@
     <div class="buttons">
       <button id="doPrint" class="primary">Print</button>
       <button id="doSvg">Download SVG</button>
-      <button id="printCancel">Close</button>
     </div>
   </div>
 </section>
 
 <div id="printArea"></div>
 
+<script src="devices.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
