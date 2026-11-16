@@ -1,0 +1,1312 @@
+[
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S22",
+  "screen": "main",
+  "uaModels": [
+   "SM-S901"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 425,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.1,
+  "diagMm": 153.9,
+  "src": [
+   "https://www.samsung.com/au/business/smartphones/galaxy-s/galaxy-s22-for-business-sm-s901-sm-s901ezwaats/",
+   "https://www.gsmarena.com/samsung_galaxy_s22_5g-11253.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"153.9mm (6.1\" full rectangle) / 149.9mm (5.9\" rounded corners)\", Resolution \"2340 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 153.9 mm = 6.059 in). samsung.com does not publish ppi on this page. GSMArena: \"6.1 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~425 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S901B, SM-S901B/DS, SM-S901U, SM-S901U1, SM-S901W, SM-S901N, SM-S9010, SM-S901E, SM-S901E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S22+",
+  "screen": "main",
+  "uaModels": [
+   "SM-S901",
+   "SM-S906"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 393,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.6,
+  "diagMm": 166.5,
+  "src": [
+   "https://www.samsung.com/sg/business/smartphones/galaxy-s/galaxy-s22-plus-for-business-sm-s901-sm-s906eiddxsp/",
+   "https://www.gsmarena.com/samsung_galaxy_s22+_5g-11252.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"166.5mm (6.6\" full rectangle) / 162.1mm (6.4\" rounded corners)\", Resolution \"2340 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 166.5 mm = 6.555 in). samsung.com does not publish ppi on this page. GSMArena: \"6.6 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~393 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S906B, SM-S906B/DS, SM-S906U, SM-S906U1, SM-S906W, SM-S906N, SM-S9060, SM-S906E, SM-S906E/DS, SM-S906L."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S22 Ultra",
+  "screen": "main",
+  "uaModels": [
+   "SM-S908",
+   "SCG14"
+  ],
+  "res": [
+   1440,
+   3088
+  ],
+  "ppi": 500,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.8,
+  "diagMm": 173.1,
+  "src": [
+   "https://www.samsung.com/sg/business/smartphones/galaxy-s/galaxy-s22-ultra-for-business-sm-s908-sm-s908edrdxsp/",
+   "https://www.gsmarena.com/samsung_galaxy_s22_ultra_5g-11251.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"173.1mm (6.8\" full rectangle) / 172.5mm (6.8\" rounded corners)\", Resolution \"3088 x 1440 (Quad HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 173.1 mm = 6.815 in). samsung.com does not publish ppi on this page. GSMArena: \"6.8 inches\", \"1440 x 3088 pixels, 19.3:9 ratio (~500 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S908B, SM-S908B/DS, SM-S908U, SM-S908U1, SM-S908W, SM-S908N, SM-S9080, SM-S908E, SM-S908E/DS, SCG14."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S23",
+  "screen": "main",
+  "uaModels": [
+   "SM-S911"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 425,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.1,
+  "diagMm": 153.9,
+  "src": [
+   "https://www.samsung.com/ae/business/smartphones/galaxy-s/galaxy-s23-phantom-black-256gb-sm-s911bzkcmda",
+   "https://www.gsmarena.com/samsung_galaxy_s23-12082.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"153.9mm (6.1\")\", Resolution \"2340 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 153.9 mm = 6.059 in). samsung.com does not publish ppi on this page. GSMArena: \"6.1 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~425 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S911B, SM-S911B/DS, SM-S911U, SM-S911U1, SM-S911W, SM-S911N, SM-S9110, SM-S911E, SM-S911E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S23+",
+  "screen": "main",
+  "uaModels": [
+   "SM-S916"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 393,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.6,
+  "diagMm": 166.5,
+  "src": [
+   "https://www.samsung.com/au/business/smartphones/galaxy-s/galaxy-s23-plus-cream-512gb-sm-s916bzeeats/",
+   "https://www.gsmarena.com/samsung_galaxy_s23+-12083.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"166.5mm (6.6\" full rectangle) / 162.1mm (6.4\" rounded corners)\", Resolution \"2340 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 166.5 mm = 6.555 in). samsung.com does not publish ppi on this page. GSMArena: \"6.6 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~393 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S916B, SM-S916B/DS, SM-S916U, SM-S916U1, SM-S916W, SM-S916N, SM-S9160, SM-S916E, SM-S916E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S23 Ultra",
+  "screen": "main",
+  "uaModels": [
+   "SM-S918",
+   "SCG20"
+  ],
+  "res": [
+   1440,
+   3088
+  ],
+  "ppi": 500,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.8,
+  "diagMm": 173.1,
+  "src": [
+   "https://www.samsung.com/au/business/smartphones/galaxy-s/galaxy-s23-ultra-for-business-sm-s918bzkaats/",
+   "https://www.gsmarena.com/samsung_galaxy_s23_ultra-12024.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"173.1mm (6.8\" full rectangle) / 172.5mm (6.8\" rounded corners)\", Resolution \"3088 x 1440 (Quad HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 173.1 mm = 6.815 in). samsung.com does not publish ppi on this page. GSMArena: \"6.8 inches\", \"1440 x 3088 pixels, 19.3:9 ratio (~500 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S918B, SM-S918B/DS, SM-S918U, SM-S918U1, SM-S918W, SM-S918N, SM-S9180, SM-S918E, SM-S918E/DS, SCG20."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S23 FE",
+  "screen": "main",
+  "uaModels": [
+   "SM-S711"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 403,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.4,
+  "diagMm": 163.1,
+  "src": [
+   "https://www.samsung.com/ie/business/smartphones/galaxy-s/galaxy-s23-fe-mint-128gb-sm-s711blgdeub/",
+   "https://www.gsmarena.com/samsung_galaxy_s23_fe-12520.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"163.1mm (6.4\" full rectangle) / 158.9mm (6.3\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 163.1 mm = 6.421 in). samsung.com does not publish ppi on this page. GSMArena: \"6.4 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S711B, SM-S711B/DS, SM-S711U1, SM-S711U, SM-S711W, SM-S7110, SM-S711N."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S24",
+  "screen": "main",
+  "uaModels": [
+   "SM-S921"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 416,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.2,
+  "diagMm": 156.4,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-s/galaxy-s24-amber-yellow-128gb-sm-s921bzydeub/",
+   "https://www.gsmarena.com/samsung_galaxy_s24-12773.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"156.4mm (6.2\" full rectangle) / 152.3mm (6.0\" rounded corners)\", Resolution \"2340 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 156.4 mm = 6.157 in). samsung.com does not publish ppi on this page. GSMArena: \"6.2 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~416 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S921B, SM-S921B/DS, SM-S921U, SM-S921U1, SM-S921W, SM-S921N, SM-S9210, SM-S921E, SM-S921E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S24+",
+  "screen": "main",
+  "uaModels": [
+   "SM-S926"
+  ],
+  "res": [
+   1440,
+   3120
+  ],
+  "ppi": 513,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-s/galaxy-s24-plus-onyx-black-256gb-sm-s926bzkdeub/",
+   "https://www.gsmarena.com/samsung_galaxy_s24+-12772.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\" full rectangle) / 164.5mm (6.5\" rounded corners)\", Resolution \"3120 x 1440 (Quad HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1440 x 3120 pixels, 19.5:9 ratio (~513 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S926B, SM-S926B/DS, SM-S926U, SM-S926U1, SM-S926W, SM-S926N, SM-S9260, SM-S926E, SM-S926E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S24 Ultra",
+  "screen": "main",
+  "uaModels": [
+   "SM-S928"
+  ],
+  "res": [
+   1440,
+   3120
+  ],
+  "ppi": 505,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.8,
+  "diagMm": 172.5,
+  "src": [
+   "https://www.samsung.com/ie/business/smartphones/galaxy-s/galaxy-s24-ultra-titanium-gray-256gb-sm-s928bztgeub/",
+   "https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"172.5mm (6.8\" full rectangle) / 172.2mm (6.8\" rounded corners)\", Resolution \"3120 x 1440 (Quad HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 172.5 mm = 6.791 in). samsung.com does not publish ppi on this page. GSMArena: \"6.8 inches\", \"1440 x 3120 pixels, 19.5:9 ratio (~505 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S928B, SM-S928B/DS, SM-S928U, SM-S928U1, SM-S928W, SM-S928N, SM-S9280, SM-S928E, SM-S928E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S24 FE",
+  "screen": "main",
+  "uaModels": [
+   "SM-S721"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 385,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 170.1,
+  "src": [
+   "https://www.samsung.com/sg/business/smartphones/galaxy-s/galaxy-s24-fe-graphite-128gb-sm-s721bzkbxsp/",
+   "https://www.gsmarena.com/samsung_galaxy_s24_fe-13262.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"170.1mm (6.7\" full rectangle) / 165.5mm (6.5\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 170.1 mm = 6.697 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S721B, SM-S721B/DS, SM-S721U1, SM-S721U, SM-S721W, SM-S7210, SM-S721N."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S25",
+  "screen": "main",
+  "uaModels": [
+   "SM-S931"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 416,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.2,
+  "diagMm": 156.4,
+  "src": [
+   "https://www.samsung.com/ca/business/smartphones/galaxy-s/galaxy-s25-sm-s931wlbaxac",
+   "https://www.gsmarena.com/samsung_galaxy_s25-13610.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"156.4mm (6.2\")\", Resolution \"2340 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 156.4 mm = 6.157 in). samsung.com does not publish ppi on this page. GSMArena: \"6.2 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~416 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S931B, SM-S931B/DS, SM-S931U, SM-S931U1, SM-S931W, SM-S931N, SM-S9310, SM-S931E, SM-S931E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S25+",
+  "screen": "main",
+  "uaModels": [
+   "SM-S936"
+  ],
+  "res": [
+   1440,
+   3120
+  ],
+  "ppi": 513,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-s/galaxy-s25-plus-navy-256gb-sm-s936bdbdeub/",
+   "https://www.gsmarena.com/samsung_galaxy_s25+-13609.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\" full rectangle) / 164.5mm (6.5\" rounded corners)\", Resolution \"3120 x 1440 (Quad HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1440 x 3120 pixels, 19.5:9 ratio (~513 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S936B, SM-S936B/DS, SM-S936U, SM-S936U1, SM-S936W, SM-S936N, SM-S9360, SM-S936E, SM-S936E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S25 Ultra",
+  "screen": "main",
+  "uaModels": [
+   "SM-S938"
+  ],
+  "res": [
+   1440,
+   3120
+  ],
+  "ppi": 498,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.9,
+  "diagMm": 174.2,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-s/galaxy-s25-ultra-titanium-silverblue-256gb-sm-s938bzbdeub/",
+   "https://www.gsmarena.com/samsung_galaxy_s25_ultra-13322.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"174.2mm (6.9\" full rectangle) / 172.2mm (6.8\" rounded corners)\", Resolution \"3120 x 1440 (Quad HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 174.2 mm = 6.858 in). samsung.com does not publish ppi on this page. GSMArena: \"6.9 inches\", \"1440 x 3120 pixels, 19.5:9 ratio (~498 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S938B, SM-S938B/DS, SM-S938U, SM-S938U1, SM-S938W, SM-S938N, SM-S9380, SM-S938E, SM-S938E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S25 Edge",
+  "screen": "main",
+  "uaModels": [
+   "SM-S937"
+  ],
+  "res": [
+   1440,
+   3120
+  ],
+  "ppi": 513,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/au/business/smartphones/galaxy-s/galaxy-s25-edge-titanium-silver-512gb-sm-s937bzseats/",
+   "https://www.gsmarena.com/samsung_galaxy_s25_edge-13506.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\" full rectangle) / 165.5mm (6.5\" rounded corners)\", Resolution \"3120 x 1440 (Quad HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1440 x 3120 pixels, 19.5:9 ratio (~513 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S937U, SM-S937U1, SM-S937B, SM-S937B/DS, SM-S9370."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S25 FE",
+  "screen": "main",
+  "uaModels": [
+   "SM-S731"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 385,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 171.1,
+  "src": [
+   "https://www.samsung.com/ae/business/smartphones/galaxy-s/galaxy-s25-fe-navy-256gb-sm-s731bdbvmea/",
+   "https://www.gsmarena.com/samsung_galaxy_s25_fe_5g-14042.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"171.1mm (6.7\")\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 171.1 mm = 6.736 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S731B, SM-S731B/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S26",
+  "screen": "main",
+  "uaModels": [
+   "SM-S942"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 411,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.3,
+  "diagMm": 159.3,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-s/galaxy-s26-black-512gb-sm-s942bzkheub/",
+   "https://www.gsmarena.com/samsung_galaxy_s26_5g-14456.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"159.3mm (6.3\" full rectangle) / 155.9mm (6.1\" rounded corners)\", Resolution \"2340 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 159.3 mm = 6.272 in). samsung.com does not publish ppi on this page. GSMArena: \"6.3 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~411 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S942B, SM-S942B/DS, SM-S942U, SM-S942U1, SM-S942W, SM-S942N, SM-S9420, SM-S942E, SM-S942E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S26+",
+  "screen": "main",
+  "uaModels": [
+   "SM-S947"
+  ],
+  "res": [
+   1440,
+   3120
+  ],
+  "ppi": 516,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/sg/business/smartphones/galaxy-s/galaxy-s26-plus-black-256gb-sm-s947bzkbxsp/",
+   "https://www.gsmarena.com/samsung_galaxy_s26+_5g-14457.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\" full rectangle) / 165.5mm (6.5\" rounded corners)\", Resolution \"3120 x 1440 (Quad HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1440 x 3120 pixels, 19.5:9 ratio (~516 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S947B, SM-S947B/DS, SM-S947U, SM-S947U1, SM-S947W, SM-S947N, SM-S9470, SM-S947E, SM-S947E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S26 Ultra",
+  "screen": "main",
+  "uaModels": [
+   "SM-S948"
+  ],
+  "res": [
+   1440,
+   3120
+  ],
+  "ppi": 500,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.9,
+  "diagMm": 174.9,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-s/galaxy-s26-ultra-black-256gb-enterprise-edition-sm-s948bzkdeeb/",
+   "https://www.gsmarena.com/samsung_galaxy_s26_ultra_5g-14320.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"174.9mm (6.9\" full rectangle) / 171.4mm (6.7\" rounded corners)\", Resolution \"3120 x 1440 (Quad HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 174.9 mm = 6.886 in). samsung.com does not publish ppi on this page. GSMArena: \"6.9 inches\", \"1440 x 3120 pixels, 19.5:9 ratio (~500 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S948B, SM-S948B/DS, SM-S948U, SM-S948U1, SM-S948W, SM-S948N, SM-S9480, SM-S948E, SM-S948E/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy S26 FE",
+  "screen": "main",
+  "uaModels": [
+   "SM-S741"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 385,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 171.1,
+  "src": [
+   "https://www.samsung.com/ca/business/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741wlgaxac/",
+   "https://www.gsmarena.com/samsung_galaxy_s26_fe_5g-14870.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"171.1mm (6.7\")\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 171.1 mm = 6.736 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-S741B, SM-S741B/DS."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold4",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F936"
+  ],
+  "res": [
+   1812,
+   2176
+  ],
+  "ppi": 373,
+  "ppiPublishedBy": "secondary",
+  "diag": 7.6,
+  "diagMm": 192.1,
+  "src": [
+   "https://www.samsung.com/ae/business/smartphones/galaxy-z/galaxy-z-fold4-phantom-black-256gb-sm-f936bzkdmea/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold4-11737.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"192.1mm (7.6\")\", Resolution \"2176 x 1812 (QXGA+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 192.1 mm = 7.563 in). samsung.com does not publish ppi on this page. GSMArena: \"7.6 inches\", \"1812 x 2176 pixels (~373 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F936B, SM-F936B/DS, SM-F936U, SM-F936U1, SM-F936N, SM-F936W, SM-F9360."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold4",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F936"
+  ],
+  "res": [
+   904,
+   2316
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.2,
+  "diagMm": 157.3,
+  "src": [
+   "https://www.samsung.com/ae/business/smartphones/galaxy-z/galaxy-z-fold4-phantom-black-256gb-sm-f936bzkdmea/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold4-11737.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"157.3mm (6.2\")\", Resolution \"2316 x 904 (HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 157.3 mm = 6.193 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Cover display: |  Dynamic AMOLED 2X, 120Hz, Corning Gorilla Glass Victus+ |  6.2 inches, 904 x 2316 pixels, 23.1:9 ratio\". No ppi published on source page."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold5",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F946"
+  ],
+  "res": [
+   1812,
+   2176
+  ],
+  "ppi": 373,
+  "ppiPublishedBy": "secondary",
+  "diag": 7.6,
+  "diagMm": 192.1,
+  "src": [
+   "https://www.samsung.com/nz/business/smartphones/galaxy-z/galaxy-z-fold5-for-business-sm-f946bzkds05/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold5-12418.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"192.1mm (7.6\" full rectangle) / 188.6mm (7.4\" rounded corners)\", Resolution \"2176 x 1812 (QXGA+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 192.1 mm = 7.563 in). samsung.com does not publish ppi on this page. GSMArena: \"7.6 inches\", \"1812 x 2176 pixels (~373 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F946B, SM-F946B/DS, SM-F946U, SM-F946U1, SM-F946N, SM-F946W, SM-F9460."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold5",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F946"
+  ],
+  "res": [
+   904,
+   2316
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.2,
+  "diagMm": 157.3,
+  "src": [
+   "https://www.samsung.com/nz/business/smartphones/galaxy-z/galaxy-z-fold5-for-business-sm-f946bzkds05/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold5-12418.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"157.3mm (6.2\" full rectangle) / 154.8mm (6.1\" rounded corners)\", Resolution \"2316 x 904 (HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 157.3 mm = 6.193 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Cover display: |  Dynamic AMOLED 2X, 120Hz, Corning Gorilla Glass Victus 2 |  6.2 inches, 904 x 2316 pixels, 23.1:9 ratio\". No ppi published on source page."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold6",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F956"
+  ],
+  "res": [
+   1856,
+   2160
+  ],
+  "ppi": 374,
+  "ppiPublishedBy": "secondary",
+  "diag": 7.6,
+  "diagMm": 193.2,
+  "src": [
+   "https://www.samsung.com/sg/business/smartphones/galaxy-z/galaxy-z-fold6-white-512gb-sm-f956bzwgxsp/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold6-13147.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"193.2mm (7.6\" full rectangle) / 192.5mm (7.6\" rounded corners)\", Resolution \"2160 x 1856 (QXGA+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 193.2 mm = 7.606 in). samsung.com does not publish ppi on this page. GSMArena: \"7.6 inches\", \"1856 x 2160 pixels (~374 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F956B, SM-F956B/DS, SM-F956U, SM-F956U1, SM-F956N, SM-F956W, SM-F9560."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold6",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F956"
+  ],
+  "res": [
+   968,
+   2376
+  ],
+  "ppi": 410,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.3,
+  "diagMm": 158.9,
+  "src": [
+   "https://www.samsung.com/sg/business/smartphones/galaxy-z/galaxy-z-fold6-white-512gb-sm-f956bzwgxsp/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold6-13147.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"158.9mm (6.3\" full rectangle) / 158.1mm (6.2\" rounded corners)\", Resolution \"968 x 2376 (HD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 158.9 mm = 6.256 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Cover display: |  Dynamic LTPO AMOLED 2X, 120Hz, 2600 nits (peak), Corning Gorilla Glass Victus 2 |  6.3 inches, 968 x 2376 pixels, 410 ppi\"."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold7",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F966"
+  ],
+  "res": [
+   1968,
+   2184
+  ],
+  "ppi": 368,
+  "ppiPublishedBy": "secondary",
+  "diag": 8.0,
+  "diagMm": 203.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-fold7-blue-shadow-256gb-sm-f966bdbbeub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold7-13826.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"203.1mm (8.0\" full rectangle) / 202.4mm (8.0\" rounded corners)\", Resolution \"2184 x 1968 (QXGA+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 203.1 mm = 7.996 in). samsung.com does not publish ppi on this page. GSMArena: \"8.0 inches\", \"1968 x 2184 pixels (~368 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F966B, SM-F966B/DS, SM-F966U, SM-F966U1."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold7",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F966"
+  ],
+  "res": [
+   1080,
+   2520
+  ],
+  "ppi": 422,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.5,
+  "diagMm": 164.8,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-fold7-blue-shadow-256gb-sm-f966bdbbeub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold7-13826.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"164.8mm (6.5\" full rectangle) / 164.2mm (6.5\" rounded corners)\", Resolution \"2520 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 164.8 mm = 6.488 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Titanium plate layer for display support |  Cover display: |  Dynamic LTPO AMOLED 2X, 120Hz, Corning Gorilla Glass Ceramic 2 |  6.5 inches, 1080 x 2520 pixels, 422 ppi\"."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold8",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F971"
+  ],
+  "res": [
+   1848,
+   2448
+  ],
+  "ppi": 404,
+  "ppiPublishedBy": "secondary",
+  "diag": 7.6,
+  "diagMm": 193.2,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-fold8-graphite-1tb-sm-f971bzkneub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold_wide_5g-14673.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"193.2mm (7.6\" full rectangle) / 192.5mm (7.6\" rounded corners)\", Resolution \"1848 x 2448 (QXGA+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 193.2 mm = 7.606 in). samsung.com does not publish ppi on this page. GSMArena: \"7.6 inches\", \"2448 x 1848 pixels, 4:3 ratio (~404 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F971B, SM-F971B/DS, SM-F971U, SM-F971U1. GSMArena page slug is z_fold_wide but titled Galaxy Z Fold8; resolution published landscape-first (2448 x 1848) - wide-format inner screen."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold8",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F971"
+  ],
+  "res": [
+   1248,
+   1972
+  ],
+  "ppi": 428,
+  "ppiPublishedBy": "secondary",
+  "diag": 5.5,
+  "diagMm": 138.4,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-fold8-graphite-1tb-sm-f971bzkneub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold_wide_5g-14673.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"138.4mm (5.5\" full rectangle) / 137.5mm (5.4\" rounded corners)\", Resolution \"1972 x 1248 (WUXGA+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 138.4 mm = 5.449 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Anti-reflective coating |  Flex Titanium technology |  Cover display: |  Dynamic LTPO AMOLED 2X, 120Hz, Corning Gorilla Glass Ceramic 3 |  5.5 inches, 1248 x 1972 pixels, 428 PPI\"."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold8 Ultra",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F976"
+  ],
+  "res": [
+   2256,
+   2504
+  ],
+  "ppi": 422,
+  "ppiPublishedBy": "secondary",
+  "diag": 8.0,
+  "diagMm": 203.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-fold8-ultra-violet-shadow-1tb-sm-f976bzvneub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold8_ultra_5g-14802.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"203.1mm (8.0\" full rectangle) / 202.4mm (8.0\" rounded corners)\", Resolution \"2504 x 2256 (QXGA+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 203.1 mm = 7.996 in). samsung.com does not publish ppi on this page. GSMArena: \"8.0 inches\", \"2256 x 2504 pixels (~422 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F976B, SM-F976B/DS, SM-F976U, SM-F976U1."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold8 Ultra",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F976"
+  ],
+  "res": [
+   1080,
+   2520
+  ],
+  "ppi": 422,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.5,
+  "diagMm": 164.8,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-fold8-ultra-violet-shadow-1tb-sm-f976bzvneub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_fold8_ultra_5g-14802.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"164.8mm (6.5\" full rectangle) / 164.1mm (6.5\" rounded corners)\", Resolution \"2520 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 164.8 mm = 6.488 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Anti-reflective coating |  Flex Titanium technology |  Cover display: |  Dynamic LTPO AMOLED 2X, 120Hz, Corning Gorilla Glass Ceramic 3 |  6.5 inches, 1080 x 2520 pixels, 422 ppi\"."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip4",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F721"
+  ],
+  "res": [
+   1080,
+   2640
+  ],
+  "ppi": 426,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 170.3,
+  "src": [
+   "https://www.samsung.com/ae/business/smartphones/galaxy-z/galaxy-z-flip4-blue-256gb-sm-f721blbemea/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip4-11538.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"170.3mm (6.7\")\", Resolution \"2640 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 170.3 mm = 6.705 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1080 x 2640 pixels (~426 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F721B, SM-F721B/DS, SM-F721N, SM-F721U, SM-F721U1, SM-F721W, SM-F7210."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip4",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F721"
+  ],
+  "res": [
+   260,
+   512
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 1.9,
+  "diagMm": 48.2,
+  "src": [
+   "https://www.samsung.com/ae/business/smartphones/galaxy-z/galaxy-z-flip4-blue-256gb-sm-f721blbemea/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip4-11538.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"48.2mm (1.9\")\", Resolution \"260 x 512\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 48.2 mm = 1.898 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Cover display: |  Super AMOLED, 1.9 inches, 260 x 512 pixels (Gorilla Glass Victus+)\". No ppi published on source page."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip5",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F731"
+  ],
+  "res": [
+   1080,
+   2640
+  ],
+  "ppi": 425,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 170.3,
+  "src": [
+   "https://www.samsung.com/nz/business/smartphones/galaxy-z/galaxy-z-flip5-for-business-sm-f731bzaas05/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip5-12252.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"170.3mm (6.7\" full rectangle) / 166.4mm (6.6\" rounded corners)\", Resolution \"2640 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 170.3 mm = 6.705 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1080 x 2640 pixels (~425 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F731B, SM-F731B/DS, SM-F731U, SM-F731U1, SM-F731W, SM-F731N."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip5",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F731"
+  ],
+  "res": [
+   720,
+   748
+  ],
+  "ppi": 306,
+  "ppiPublishedBy": "secondary",
+  "diag": 3.4,
+  "diagMm": 86.1,
+  "src": [
+   "https://www.samsung.com/nz/business/smartphones/galaxy-z/galaxy-z-flip5-for-business-sm-f731bzaas05/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip5-12252.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"86.1mm (3.4\" full rectangle) / 83.2mm (3.3\" rounded corners)\", Resolution \"720 x 748\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 86.1 mm = 3.390 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Cover display: |  Super AMOLED, 60Hz, 3.4 inches, 720 x 748 pixels (Gorilla Glass Victus 2), 306 ppi\"."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip6",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F741"
+  ],
+  "res": [
+   1080,
+   2640
+  ],
+  "ppi": 426,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 170.3,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-flip6-yellow-256gb-sm-f741bzygeub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip6-13192.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"170.3mm (6.7\" full rectangle) / 166.4mm (6.6\" rounded corners)\", Resolution \"2640 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 170.3 mm = 6.705 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1080 x 2640 pixels (~426 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F741B, SM-F741B/DS, SM-F741U, SM-F741U1, SM-F741W, SM-F741N."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip6",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F741"
+  ],
+  "res": [
+   720,
+   748
+  ],
+  "ppi": 306,
+  "ppiPublishedBy": "secondary",
+  "diag": 3.4,
+  "diagMm": 86.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-flip6-yellow-256gb-sm-f741bzygeub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip6-13192.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"86.1mm (3.4\" full rectangle) / 83.2mm (3.3\" rounded corners)\", Resolution \"720 x 748\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 86.1 mm = 3.390 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Cover display: |  Super AMOLED, 60Hz, 1600 nits (peak), 3.4 inches, 720 x 748 pixels (Gorilla Glass Victus 2), 306 ppi\"."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip7",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F766"
+  ],
+  "res": [
+   1080,
+   2520
+  ],
+  "ppi": 397,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.9,
+  "diagMm": 174.1,
+  "src": [
+   "https://www.samsung.com/ph/business/smartphones/galaxy-z/galaxy-z-flip7-blue-shadow-512gb-sm-f766bdbephl/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip7-13712.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"174.1mm (6.9\" full rectangle) / 171.5mm (6.8\" rounded corners)\", Resolution \"2520 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 174.1 mm = 6.854 in). samsung.com does not publish ppi on this page. GSMArena: \"6.9 inches\", \"1080 x 2520 pixels, 21:9 ratio (~397 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F766B, SM-F766B/DS, SM-F766U, SM-F766U1."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip7",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F766"
+  ],
+  "res": [
+   948,
+   1048
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 4.1,
+  "diagMm": 104.8,
+  "src": [
+   "https://www.samsung.com/ph/business/smartphones/galaxy-z/galaxy-z-flip7-blue-shadow-512gb-sm-f766bdbephl/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip7-13712.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"104.8mm (4.1\" full rectangle) / 102.3mm (4.0\" rounded corners)\", Resolution \"1048 x 948\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 104.8 mm = 4.126 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Cover display: |  Super AMOLED, 120Hz, 2600 nits (peak), 4.1 inches, 948 x 1048 pixels (Gorilla Glass Victus 2)\". No ppi published on source page."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip7 FE",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F761"
+  ],
+  "res": [
+   1080,
+   2640
+  ],
+  "ppi": 426,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.7,
+  "diagMm": 170.3,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-flip7-fe-black-128gb-sm-f761bzkgeub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip7_fe_5g-13844.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"170.3mm (6.7\" full rectangle) / 166.4mm (6.6\" rounded corners)\", Resolution \"2640 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 170.3 mm = 6.705 in). samsung.com does not publish ppi on this page. GSMArena: \"6.7 inches\", \"1080 x 2640 pixels (~426 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F761B, SM-F761B/DS, SM-F761U1, SM-F761U."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip7 FE",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F761"
+  ],
+  "res": [
+   720,
+   748
+  ],
+  "ppi": 306,
+  "ppiPublishedBy": "secondary",
+  "diag": 3.4,
+  "diagMm": 86.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-z/galaxy-z-flip7-fe-black-128gb-sm-f761bzkgeub/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip7_fe_5g-13844.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"86.1mm (3.4\" full rectangle) / 83.2mm (3.3\" rounded corners)\", Resolution \"720 x 748\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 86.1 mm = 3.390 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Cover display: |  Super AMOLED, 60Hz, 2600 nits (peak), 3.4 inches, 720 x 748 pixels (Gorilla Glass Victus 2), 306 ppi\"."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip8",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F776"
+  ],
+  "res": [
+   1080,
+   2520
+  ],
+  "ppi": 400,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.9,
+  "diagMm": 174.1,
+  "src": [
+   "https://www.samsung.com/sg/business/smartphones/galaxy-z/galaxy-z-flip8-graphite-512gb-sm-f776bzkexsp/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip8_5g-14803.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"174.1mm (6.9\" full rectangle) / 171.5mm (6.8\" rounded corners)\", Resolution \"2520 x 1080 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 174.1 mm = 6.854 in). samsung.com does not publish ppi on this page. GSMArena: \"6.9 inches\", \"1080 x 2520 pixels, 21:9 ratio (~400 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F776B, SM-F776B/DS, SM-F776U, SM-F776U1."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip8",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F776"
+  ],
+  "res": [
+   948,
+   1048
+  ],
+  "ppi": 342,
+  "ppiPublishedBy": "secondary",
+  "diag": 4.1,
+  "diagMm": 104.8,
+  "src": [
+   "https://www.samsung.com/sg/business/smartphones/galaxy-z/galaxy-z-flip8-graphite-512gb-sm-f776bzkexsp/",
+   "https://www.gsmarena.com/samsung_galaxy_z_flip8_5g-14803.php"
+  ],
+  "notes": "samsung.com business page: Size (Sub_Display) \"104.8mm (4.1\" full rectangle) / 102.3mm (4.0\" rounded corners)\", Resolution \"1048 x 948\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 104.8 mm = 4.126 in). samsung.com does not publish ppi on this page. GSMArena cover display: \"Cover display: |  Super AMOLED, 120Hz, 3000 nits (peak), 4.1 inches, 948 x 1048 pixels (Gorilla Glass Victus 2), 342 PPI\"."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A15",
+  "screen": "main",
+  "uaModels": [
+   "SM-A155"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 396,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.5,
+  "diagMm": 163.9,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-a/galaxy-a15-blue-black-128gb-sm-a155fzkdeub/",
+   "https://www.gsmarena.com/samsung_galaxy_a15-12637.php"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"163.9mm (6.5\" full rectangle) / 159.5mm (6.3\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 163.9 mm = 6.453 in). samsung.com does not publish ppi on this page. GSMArena: \"6.5 inches\", \"1080 x 2340 pixels, 19.5:9 ratio (~396 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-A155F, SM-A155F/DSN, SM-A155M, SM-A155M/DS, SM-A155P, SM-A155R, SM-A155N."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A15 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A156"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.5,
+  "diagMm": 163.9,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-a/galaxy-a15-5g-blue-black-128gb-sm-a156bzkdeub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"163.9mm (6.5\" full rectangle) / 159.5mm (6.3\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 163.9 mm = 6.453 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants not verified (GSMArena was rate-limiting). ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A16",
+  "screen": "main",
+  "uaModels": [
+   "SM-A165"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/ae/business/smartphones/galaxy-a/galaxy-a16-black-256gb-sm-a165fzkimea/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\")\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A16 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A166"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/ie/business/smartphones/galaxy-a/galaxy-a16-5g-blue-black-128gb-sm-a166bzkdeub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\" full rectangle) / 164.5mm (6.5\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A17",
+  "screen": "main",
+  "uaModels": [
+   "SM-A175"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/levant/business/smartphones/galaxy-a/galaxy-a17-black-128gb-sm-a175fzkcmea/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\")\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A17 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A176"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-a/galaxy-a17-5g-black-128gb-sm-a176bzkaeub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\" full rectangle) / 164.5mm (6.5\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A25 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A256"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.5,
+  "diagMm": 164.2,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-a/galaxy-a25-5g-blue-128gb-sm-a256bzbdeub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"164.2mm (6.5\" full rectangle) / 159.8mm (6.3\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 164.2 mm = 6.465 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A26 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A266"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-a/galaxy-a26-5g-black-128gb-enterprise-edition-sm-a266bzkbeeb/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\" full rectangle) / 164.5mm (6.5\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A27 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A276"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 169.1,
+  "src": [
+   "https://www.samsung.com/ie/business/smartphones/galaxy-a/galaxy-a27-5g-black-128gb-sm-a276bzkbeub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"169.1mm (6.7\" full rectangle) / 164.5mm (6.5\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 169.1 mm = 6.657 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A35 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A356"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.6,
+  "diagMm": 168.3,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-a/galaxy-a35-5g-awesome-lemon-128gb-sm-a356bzybeub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"168.3mm (6.6\" full rectangle) / 163.7mm (6.4\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 168.3 mm = 6.626 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A36 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A366"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 170.1,
+  "src": [
+   "https://www.samsung.com/au/business/smartphones/galaxy-a/galaxy-a36-5g-awesome-black-128gb-sm-a366bzkaats/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"170.1mm (6.7\" full rectangle) / 165.5mm (6.5\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 170.1 mm = 6.697 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A37 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A376"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 170.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-a/galaxy-a37-5g-awesome-charcoal-256gb-sm-a376bzageub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"170.1mm (6.7\" full rectangle) / 165.5mm (6.5\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 170.1 mm = 6.697 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A55 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A556"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.6,
+  "diagMm": 168.3,
+  "src": [
+   "https://www.samsung.com/ie/business/smartphones/galaxy-a/galaxy-a55-5g-awesome-navy-128gb-sm-a556bzkaeub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"168.3mm (6.6\" full rectangle) / 163.7mm (6.4\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 168.3 mm = 6.626 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A56 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A566"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 170.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-a/galaxy-a56-5g-awesome-lightgrey-256gb-sm-a566bzaceub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"170.1mm (6.7\" full rectangle) / 165.5mm (6.5\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 170.1 mm = 6.697 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy A57 5G",
+  "screen": "main",
+  "uaModels": [
+   "SM-A576"
+  ],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.7,
+  "diagMm": 171.1,
+  "src": [
+   "https://www.samsung.com/uk/business/smartphones/galaxy-a/galaxy-a57-5g-awesome-gray-512gb-sm-a576bzaheub/"
+  ],
+  "notes": "samsung.com business page: Size (Main_Display) \"171.1mm (6.7\" full rectangle) / 166.4mm (6.6\" rounded corners)\", Resolution \"1080 x 2340 (FHD+)\". diag = manufacturer's rounded inch figure; diagMm is the full-rectangle diagonal (more precise: 171.1 mm = 6.736 in). samsung.com does not publish ppi on this page. uaModels prefix taken from the SKU in the fetched samsung.com URL only; regional/carrier variants (e.g. U/U1/M/F suffixes, which share the prefix) not verified; GSMArena was rate-limiting (HTTP 429) so its model list and ppi were not fetched. ppi null: no published figure fetched."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold Special",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F958"
+  ],
+  "res": [
+   1968,
+   2184
+  ],
+  "ppi": 367,
+  "ppiPublishedBy": "secondary",
+  "diag": 8.0,
+  "diagMm": null,
+  "src": [
+   "https://www.gsmarena.com/samsung_galaxy_z_fold_special-13452.php"
+  ],
+  "notes": "GSMArena: \"8.0 inches\", \"1968 x 2184 pixels (~367 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F958N. Korea-only model. Not found on samsung.com business pages; GSMArena only."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold Special",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F958"
+  ],
+  "res": [
+   1080,
+   2520
+  ],
+  "ppi": null,
+  "ppiPublishedBy": null,
+  "diag": 6.5,
+  "diagMm": null,
+  "src": [
+   "https://www.gsmarena.com/samsung_galaxy_z_fold_special-13452.php"
+  ],
+  "notes": "GSMArena cover display: \"Ultra Flexible Glass (UFG) |  Cover display: |  Dynamic LTPO AMOLED 2X, 120Hz, 2600 nits (peak), Corning Gorilla Glass Victus 2 |  6.5 inches, 1080 x 2520 pixels\". No ppi published on source page. Not found on samsung.com business pages; GSMArena only."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z TriFold",
+  "screen": "inner",
+  "uaModels": [
+   "SM-F968",
+   "SM-D639"
+  ],
+  "res": [
+   1584,
+   2160
+  ],
+  "ppi": 269,
+  "ppiPublishedBy": "secondary",
+  "diag": 10.0,
+  "diagMm": null,
+  "src": [
+   "https://www.gsmarena.com/samsung_galaxy_z_trifold_5g-14292.php"
+  ],
+  "notes": "GSMArena: \"10.0 inches\", \"1584 x 2160 pixels, 4:3 ratio (~269 ppi density)\" (ppi is GSMArena-computed). Models listed: SM-F968B, SM-F968B/DS, SM-D639B, SM-D639B/DS, SM-D639U, SM-D639U1, SM-D639N, SM-D6390. Tri-fold; not in the Z Fold 4+ numbered line, included for completeness. SM-D639 prefix listed by GSMArena (as published). Not found on samsung.com business pages; GSMArena only."
+ },
+ {
+  "brand": "Samsung",
+  "name": "Galaxy Z TriFold",
+  "screen": "cover",
+  "uaModels": [
+   "SM-F968",
+   "SM-D639"
+  ],
+  "res": [
+   1080,
+   2520
+  ],
+  "ppi": 422,
+  "ppiPublishedBy": "secondary",
+  "diag": 6.5,
+  "diagMm": null,
+  "src": [
+   "https://www.gsmarena.com/samsung_galaxy_z_trifold_5g-14292.php"
+  ],
+  "notes": "GSMArena cover display: \"Dynamic LTPO AMOLED 2X, 120Hz, HDR, 2600 nits (peak), Corning Gorilla Glass Ceramic 2 |  6.5 inches, 1080 x 2520 pixels, 422 ppi\". Not found on samsung.com business pages; GSMArena only."
+ }
+]

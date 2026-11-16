@@ -88,23 +88,24 @@ function pxPerMm() {
 // ---------------------------------------------------------------- devices
 const DEVS = (window.DEVICES || []).filter(d => d.r && (d.ppi || d.d || d.dmm));
 const devId = d => `${d.b} ${d.n}${d.s && d.s !== 'main' ? ` (${d.s} screen)` : ''}`;
-function devShortMm(d) {
-  if (d.ppi) return d.r[0] / d.ppi * 25.4;
-  const diag = d.dmm || d.d * 25.4;
-  return diag * d.r[0] / Math.hypot(d.r[0], d.r[1]);
+// Each published figure gives the physical width with some rounding uncertainty;
+// use whichever is most precise (e.g. Samsung's mm diagonal beats a third-party ppi).
+function devEstimates(d) {
+  const est = [], hyp = Math.hypot(d.r[0], d.r[1]);
+  const decs = v => (String(v).split('.')[1] || '').length;
+  if (d.ppi) est.push({ w: d.r[0] / d.ppi * 25.4, unc: d.by === 'm' ? 0.5 * 10 ** -decs(d.ppi) / d.ppi : 0.5 * 10 ** -decs(d.d || 0) / (d.d || 6) });
+  if (d.dmm) est.push({ w: d.dmm * d.r[0] / hyp, unc: 0.5 * 10 ** -decs(d.dmm) / d.dmm });
+  if (d.d) est.push({ w: d.d * 25.4 * d.r[0] / hyp, unc: 0.5 * 10 ** -decs(d.d) / d.d });
+  return est.sort((x, y) => x.unc - y.unc);
 }
-// Relative uncertainty of the published figure (rounding only).
-function devUnc(d) {
-  if (d.ppi && d.by === 'm') { const dec = (String(d.ppi).split('.')[1] || '').length; return 0.5 * 10 ** -dec / d.ppi; }
-  if (d.dmm) return 0.05 / d.dmm;
-  if (d.d) { const dec = (String(d.d).split('.')[1] || '').length; return 0.5 * 10 ** -dec / d.d; }
-  return 0.5 / d.ppi;
-}
+const devShortMm = d => devEstimates(d)[0].w;
+const devUnc = d => devEstimates(d)[0].unc;
 function screenFits(d) {
   const aspect = screenLongPx() / screenShortPx(), dAspect = d.r[1] / d.r[0];
-  if (Math.abs(aspect / dAspect - 1) > 0.025) return false;
+  if (Math.abs(aspect / dAspect - 1) > 0.01) return false;
+  // screen.width × DPR is exact on iOS and within a pixel or two on Android
   const r = screenShortPx() / d.r[0];
-  return RENDER_RATIOS.some(R => Math.abs(r / R - 1) < 0.012);
+  return RENDER_RATIOS.some(R => Math.abs(r / R - 1) < 0.004);
 }
 function modelFits(d, model) {
   const m = model.toLowerCase().trim();
@@ -127,7 +128,11 @@ async function detectModel() {
 // Phones that could be this one: by reported model, else by screen resolution.
 function candidates() {
   if (detectedModel) {
-    const byModel = DEVS.filter(d => modelFits(d, detectedModel));
+    // prefer the longest matching name, so "razr 50" doesn't claim a "razr 50 ultra"
+    const len = d => Math.max(0, ...(d.ua || []).filter(u => modelFits({ ua: [u] }, detectedModel)).map(u => u.length));
+    let byModel = DEVS.filter(d => modelFits(d, detectedModel));
+    const best = Math.max(0, ...byModel.map(len));
+    byModel = byModel.filter(d => len(d) === best);
     if (byModel.length) {
       const fit = byModel.filter(screenFits);
       return { how: 'model', list: fit.length ? fit : byModel };
@@ -768,7 +773,7 @@ function syncHints() {
 
 // ---------------------------------------------------------------- device picker
 function devLabelRight(d) {
-  return `${Math.round(d.ppi || (d.r[0] / devShortMm(d) * 25.4))} ppi · ±${(devUnc(d) * 100).toFixed(2)}%`;
+  return `${Math.round(d.r[0] / devShortMm(d) * 25.4)} ppi · ±${(devUnc(d) * 100).toFixed(2)}%`;
 }
 function devButton(d) {
   const b = document.createElement('button');

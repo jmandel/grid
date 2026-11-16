@@ -1,0 +1,632 @@
+[
+ {
+  "brand": "Apple",
+  "name": "iPhone 11",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   828,
+   1792
+  ],
+  "ppi": 326,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.06,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111865"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 11 Pro",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1125,
+   2436
+  ],
+  "ppi": 458,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 5.85,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111879"
+  ],
+  "notes": "Apple tech specs: marketed 5.8-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 5.85 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 11 Pro Max",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1242,
+   2688
+  ],
+  "ppi": 458,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.46,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111878"
+  ],
+  "notes": "Apple tech specs: marketed 6.5-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone SE (2nd generation)",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   750,
+   1334
+  ],
+  "ppi": 326,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 4.7,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111882"
+  ],
+  "notes": "Apple tech specs: 4.7-inch (diagonal) LCD, no rounded-corner footnote. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 12 mini",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 476,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 5.42,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111877"
+  ],
+  "notes": "Apple tech specs: marketed 5.4-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 5.42 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 12",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1170,
+   2532
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.06,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111876"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 12 Pro",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1170,
+   2532
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.06,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111875"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 12 Pro Max",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1284,
+   2778
+  ],
+  "ppi": 458,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.68,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111874"
+  ],
+  "notes": "Apple tech specs: marketed 6.7-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.68 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 13 mini",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1080,
+   2340
+  ],
+  "ppi": 476,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 5.42,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111873"
+  ],
+  "notes": "Apple tech specs: marketed 5.4-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 5.42 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 13",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1170,
+   2532
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.06,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111872"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 13 Pro",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1170,
+   2532
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.06,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111871"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 13 Pro Max",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1284,
+   2778
+  ],
+  "ppi": 458,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.68,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111870"
+  ],
+  "notes": "Apple tech specs: marketed 6.7-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.68 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone SE (3rd generation)",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   750,
+   1334
+  ],
+  "ppi": 326,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 4.7,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111866"
+  ],
+  "notes": "Apple tech specs: 4.7-inch (diagonal) LCD, no rounded-corner footnote. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 14",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1170,
+   2532
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.06,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111850"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 14 Plus",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1284,
+   2778
+  ],
+  "ppi": 458,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.68,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111854"
+  ],
+  "notes": "Apple tech specs: marketed 6.7-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.68 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 14 Pro",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1179,
+   2556
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.12,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111849"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 14 Pro Max",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1290,
+   2796
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.69,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111846"
+  ],
+  "notes": "Apple tech specs: marketed 6.7-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.69 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 15",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1179,
+   2556
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.12,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111831"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 15 Plus",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1290,
+   2796
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.69,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111830"
+  ],
+  "notes": "Apple tech specs: marketed 6.7-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.69 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 15 Pro",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1179,
+   2556
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.12,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111829"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 15 Pro Max",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1290,
+   2796
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.69,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/111828"
+  ],
+  "notes": "Apple tech specs: marketed 6.7-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.69 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 16",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1179,
+   2556
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.12,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/121029"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 16 Plus",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1290,
+   2796
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.69,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/121030"
+  ],
+  "notes": "Apple tech specs: marketed 6.7-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.69 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 16 Pro",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1206,
+   2622
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.27,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/121031"
+  ],
+  "notes": "Apple tech specs: marketed 6.3-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.27 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 16 Pro Max",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1320,
+   2868
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.86,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/121032"
+  ],
+  "notes": "Apple tech specs: marketed 6.9-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.86 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 16e",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1170,
+   2532
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.06,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/122208"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 17",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1206,
+   2622
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.27,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/125089"
+  ],
+  "notes": "Apple tech specs: marketed 6.3-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.27 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone Air",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1260,
+   2736
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.55,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/125092"
+  ],
+  "notes": "Apple tech specs: marketed 6.5-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.55 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 17 Pro",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1206,
+   2622
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.27,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/125090"
+  ],
+  "notes": "Apple tech specs: marketed 6.3-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.27 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 17 Pro Max",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1320,
+   2868
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.86,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/125091"
+  ],
+  "notes": "Apple tech specs: marketed 6.9-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.86 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 17e",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1170,
+   2532
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.06,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/126470"
+  ],
+  "notes": "Apple tech specs: marketed 6.1-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 18 Pro",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1206,
+   2622
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.27,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/148590"
+  ],
+  "notes": "Apple tech specs: marketed 6.3-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.27 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone 18 Pro Max",
+  "screen": "main",
+  "uaModels": [],
+  "res": [
+   1320,
+   2868
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 6.86,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/148591"
+  ],
+  "notes": "Apple tech specs: marketed 6.9-inch (diagonal); footnote: \"When measured as a standard rectangular shape, the screen is 6.86 inches diagonally (actual viewable area is less).\" diag uses the rectangle figure. Apple publishes resolution as height-by-width; res stored [short,long]."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone Duo",
+  "screen": "inner",
+  "uaModels": [],
+  "res": [
+   1878,
+   2670
+  ],
+  "ppi": 430,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 7.58,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/148588"
+  ],
+  "notes": "Foldable. Apple tech specs \"Inner display\": 7.6-inch (diagonal), resolution published as 1878-by-2670 at 430 ppi (order kept as published). Footnote: \"the screens are 7.58 and 5.36 inches diagonally\" as standard rectangles; mapping 7.58->inner, 5.36->outer inferred from order. No mm diagonal published."
+ },
+ {
+  "brand": "Apple",
+  "name": "iPhone Duo",
+  "screen": "cover",
+  "uaModels": [],
+  "res": [
+   1398,
+   2034
+  ],
+  "ppi": 460,
+  "ppiPublishedBy": "manufacturer",
+  "diag": 5.36,
+  "diagMm": null,
+  "src": [
+   "https://support.apple.com/en-us/148588"
+  ],
+  "notes": "Foldable. Apple tech specs \"Outer display\": 5.4-inch (diagonal), resolution published as 1398-by-2034 at 460 ppi (order kept as published). Footnote: \"the screens are 7.58 and 5.36 inches diagonally\" as standard rectangles; mapping 7.58->inner, 5.36->outer inferred from order. No mm diagonal published."
+ }
+]

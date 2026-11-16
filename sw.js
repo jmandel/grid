@@ -1,6 +1,6 @@
 // Offline support: always try the network first so updates show up at once;
 // fall back to the cached copy when offline.
-const C = 'true-size-v3';
+const C = 'true-size-v4';
 const FILES = ['./', 'index.html', 'style.css', 'app.js', 'devices.js', 'manifest.webmanifest',
   'icon.svg', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(C).then(c => c.addAll(FILES.map(f => new Request(f, { cache: 'reload' }))))); self.skipWaiting(); });
