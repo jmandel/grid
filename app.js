@@ -95,7 +95,7 @@ function devShortMm(d) {
 }
 // Relative uncertainty of the published figure (rounding only).
 function devUnc(d) {
-  if (d.ppi && d.by === 'm') return 0.5 / d.ppi;
+  if (d.ppi && d.by === 'm') { const dec = (String(d.ppi).split('.')[1] || '').length; return 0.5 * 10 ** -dec / d.ppi; }
   if (d.dmm) return 0.05 / d.dmm;
   if (d.d) { const dec = (String(d.d).split('.')[1] || '').length; return 0.5 * 10 ** -dec / d.d; }
   return 0.5 / d.ppi;
@@ -794,7 +794,7 @@ function renderDeviceList() {
     if (d.b !== brand) { brand = d.b; const h = document.createElement('h3'); h.textContent = brand; list.appendChild(h); }
     list.appendChild(devButton(d));
   }
-  if (!list.children.length) list.innerHTML = '<p class="hint">No match. You can calibrate with a card instead.</p>';
+  if (!list.children.length) list.innerHTML = `<p class="hint">${DEVS.length ? 'No phone matches that search.' : 'The phone list did not load.'} You can calibrate with a card instead.</p>`;
 }
 $('devSearch').oninput = renderDeviceList;
 $('pickDevice').onclick = () => { openSheet('devices'); renderDeviceList(); };
@@ -993,7 +993,12 @@ syncPanel();
     openSheet('devices'); renderDeviceList();
   }
 })();
-if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(() => {});
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  // when a new version takes over, reload once so its files are used
+  const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !window.__reloaded) { window.__reloaded = true; location.reload(); } });
+  navigator.serviceWorker.register('sw.js').then(r => r.update()).catch(() => {});
+}
 
 // test hook
 window.__pr = { S, V, buildPattern, pxPerMm, render, dev: () => [devW, devH], candidates, DEVS, reading, setModel: m => { detectedModel = m; } };
